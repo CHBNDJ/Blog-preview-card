@@ -41,7 +41,8 @@ main {
 }
 
 .blog--content {
-    padding: 5px;
+    width: 336px;
+    height: 194px;
 }
 
 .blog--category {
@@ -70,6 +71,7 @@ main {
 .blog--description {
     margin: 12px 0 0 0;
     color: hsl(0, 0%, 50%);
+    line-height: 150%;
 }
 
 .blog--author {
@@ -95,7 +97,7 @@ main {
 
     .blog--container {
         width: 327px;
-        height: auto;
+        height: 460px;
         padding: 24px;
         left: 24px;
         top: 155px;
@@ -107,7 +109,8 @@ main {
     }
 
     .blog--content {
-        padding: 5px;
+        width: auto;
+        height: auto;
     }
     
     .blog--publishdate {
