@@ -54,7 +54,7 @@ main {
 }
 
 .blog--publishdate {
-    margin: 14px 0;
+    margin: 18px 0;
     font-weight: 600;
     font-size: 14px;
 }
@@ -77,7 +77,7 @@ main {
 .blog--author {
     display: flex;
     align-items: center;
-    margin: 24px 0;
+    margin: 20px 0;
 }
 
 .blog--author__picture {
