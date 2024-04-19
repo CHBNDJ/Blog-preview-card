@@ -6,8 +6,8 @@
 
 body, html {
     height: 960px;
+    width: 1440px;
     background-color: hsl(47, 88%, 63%);
-    padding: 60px;
 }
 
 main {
@@ -23,6 +23,9 @@ main {
     border-radius: 20px;
     box-shadow: 10px 10px 5px black;
     padding: 25px;
+    position: absolute;
+    top: 218.5px;
+    left: 528px;
 }
 
 .blog--picture {
@@ -88,6 +91,8 @@ main {
         width: 327px;
         height: 501px;
         padding: 24px;
+        left: 24px;
+        top: 155px;
     }
 
     .blog--picture {
