@@ -21,11 +21,17 @@ main {
     height: 522px;
     background-color: white;
     border-radius: 20px;
+    border-top: solid 1px;
     box-shadow: 10px 10px 5px black;
     padding: 25px;
     position: absolute;
     top: 218.5px;
     left: 528px;
+    cursor: pointer;
+}
+
+.blog--container:active {
+    box-shadow: 20px 20px 10px black; /* Augmente les valeurs de l'ombre portée */
 }
 
 .blog--picture {
@@ -55,7 +61,6 @@ main {
 .blog--title {
     font-size: 24px;
     font-weight: 800;
-    cursor: pointer;
 }
 
 .blog--title:active {
